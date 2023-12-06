@@ -1,0 +1,94 @@
+### Site Settings ###
+title               : Ralph Gregorio
+description         : >-
+                      Under construction
+baseurl             : ""                     
+repository          : ralphGregorio/ralphgregorio.github.io 
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : false                             
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                           
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+  - pages/blog.html                                     # hide for now
+
+
+### Author Info ###
+author:
+  name              : Ralph Gregorio
+  image             : /images/placeholder.png
+  email             : ralphlouiegregorio@gmail.com
+  github            : ralphgregorio
+  linkedin          : ralphgregorio
+  medium            : ralphgregorio
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: true
+  username: ralphgregorio
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
