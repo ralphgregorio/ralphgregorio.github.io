@@ -25,7 +25,7 @@ nav_exclude:
 ### Author Info ###
 author:
   name              : Ralph Gregorio
-  image             : /images/placeholder.png
+  image             : /assets/images/placeholder.png
   email             : ralphlouiegregorio@gmail.com
   github            : ralphgregorio
   linkedin          : ralphgregorio
@@ -41,13 +41,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
-
-
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
@@ -74,17 +67,9 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
-
 
 ### Exclude from processing ###
 exclude:
