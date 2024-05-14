@@ -17,6 +17,8 @@ collections:
   posts:
     output: true
 
+destination: ./docs
+
 defaults:
   - scope:
       path: "_posts"
