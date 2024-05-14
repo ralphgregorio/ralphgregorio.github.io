@@ -1,79 +1,26 @@
-### Site Settings ###
-title               : Ralph Gregorio
-description         : >-
-                      Under construction
-baseurl             : ""                     
-repository          : ralphGregorio/ralphgregorio.github.io 
-remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             
+title: Jekyll Serial Programmer
+markdown: kramdown
 
+# for atom feed
+author:
+  name: Sharad Raj Singh Maurya
+  email: dev_sharad@outlook.com
 
-### Plugins ###
 plugins:
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
-
-### Navbar Settings ###
-nav_exclude:                                           
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
-  - pages/blog.html                                     # hide for now
-
-
-### Author Info ###
-author:
-  name              : Ralph Gregorio
-  image             : /assets/images/placeholder.png
-  email             : ralphlouiegregorio@gmail.com
-  github            : ralphgregorio
-  linkedin          : ralphgregorio
-  medium            : ralphgregorio
-
-
-### Posts ###
-permalink: /blog/:title
-
-
-### Collections ###
+collections_dir: all_collections
 collections:
-  projects:
+  posts:
     output: true
-    permalink: /projects/:name
 
-
-### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
-
-
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
-buymeacoffee:
-  enabled: true
-  username: ralphgregorio
-  color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
-  description: "Support me on Buy me a coffee!"
-
-
-### Defaults for collections ###
 defaults:
   - scope:
-      path: ""
-      type: "projects"
+      path: "_posts"
     values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-
-### Exclude from processing ###
-exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
+      layout: "post"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
