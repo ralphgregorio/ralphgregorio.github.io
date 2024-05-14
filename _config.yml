@@ -1,9 +1,8 @@
-title: Ralph Louie Gregorio
+title: Ralph Gregorio
 markdown: kramdown
 
-# for atom feed
 author:
-  name: Ralph Louie Gregorio
+  name: Ralph Gregorio
   email: ralphlouiegregorio@gmail.com
 
 plugins:
