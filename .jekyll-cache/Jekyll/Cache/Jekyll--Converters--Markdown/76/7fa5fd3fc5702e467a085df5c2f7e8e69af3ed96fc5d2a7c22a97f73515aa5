@@ -1,0 +1,7 @@
+I"ÿ<p>The Built Environment and Active Populations (BEAP) Engine, is a web application/tool we developed to collect, process and
+analyze physical activity data exported from Apple Watch and Fitbit devices(As a value add,) the
+tool also predicts past physical activity (from metrics such as energy expenditure and distance
+walked) using machine learning methods, and returns the file in a more user-friendly format</p>
+
+<p><a href="https://github.com/ralphgregorio/BEAPEngine">Look at the source code here!</a></p>
+:ET

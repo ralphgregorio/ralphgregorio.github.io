@@ -1,0 +1,14 @@
+I"—<p>The Built Environment and Active Populations (BEAP) Engine, is a web application/tool we developed to collect, process and
+analyze physical activity data exported from Apple Watch and Fitbit devices(As a value add,) the
+tool also predicts past physical activity (from metrics such as energy expenditure and distance
+walked) using machine learning methods, and returns the file in a more user-friendly format</p>
+
+<p>I worked with <a href="https://www.beaplab.com/home/">BEAPLab</a> to help further develop their frontend by using react + typescript, implemented a CI/CD pipeline using
+Github Actions and Digital Ocean, implemented different environments (local, staging, prod) for easier development, implemented testing (unit, integration, and system testing)
+for all components, created cron jobs in the server for automatic management of licenses and tasks, and added new apiâ€™s for accounts along with data uploading + deletion.</p>
+
+<p><img src="/assets/beaplab/BeapEngineDemo.mov" alt="beapengine-demo" /></p>
+
+<p><a href="https://beapengine.com/">Access the site here</a>
+<a href="https://github.com/ralphgregorio/BEAPEngine">Look at the source code here!</a></p>
+:ET

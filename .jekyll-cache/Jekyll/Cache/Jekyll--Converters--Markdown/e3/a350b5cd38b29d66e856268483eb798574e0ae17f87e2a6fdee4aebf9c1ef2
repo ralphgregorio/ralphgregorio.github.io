@@ -1,0 +1,10 @@
+I"j<p>Built a discord bot which abused the valorant api to get unimpeded access to gather rank information from all players. With that it is able to get any rank and match information from any player in valorant as long as the name and token is provided.</p>
+
+<h4 id="gather-rank-information">Gather Rank Information</h4>
+<p><img src="/assets/imgs/rank-info.png" alt="rank-info" /></p>
+
+<h4 id="gather-match-information">Gather Match Information</h4>
+<p><img src="/assets/imgs/match-info.png" alt="match-info" /></p>
+
+<p><a href="https://github.com/ralphgregorio/ValorantDiscordBot">Look at the source code here!</a></p>
+:ET
