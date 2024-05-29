@@ -15,13 +15,12 @@ Github Actions and Digital Ocean, dockerizing the application and caching for bu
 for all components, created cron jobs in the server for automatic management of licenses and tasks, and added new api's for accounts along with data uploading + deletion.
 
 #### CI/CD Pipeline
-An overview of how the pipeline was setup.
+An overview of how the pipeline was
 ![rank-info](/assets/beaplab/cipipeline.png)
 
 
 #### Demo
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=D-_JYA4MWh4" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="420" height="315" src="https://www.youtube.com/embed/D-_JYA4MWh4" frameborder="0" allowfullscreen> </iframe>
 [Access the site here](https://beapengine.com/)
 
 
